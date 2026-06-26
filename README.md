@@ -67,16 +67,19 @@ The idea/concept has been explained in detail in the report associated in this g
   <img src="yolo_results/F1_curve.png" width="45%"/>
 </p>
 
-
-**Final Reported Metrics:**
+### Final Reported Metrics
 
 | Metric | Value | Meaning |
-|-------|-------|---------|
-| 🎯 **Precision** | 93.87% | Correct positive detections |
-| 🔎 **Recall** | 56.06% | Ability to find all objects |
-| 🏆 **mAP@0.5** | 61.42% | Overall detection performance |
+| :--- | :--- | :--- |
+| 🎯 **Precision** | 65.0% | Accuracy of positive detections; how many selected items are relevant. |
+| 🔎 **Recall** | 67.5% | Coverage of positive detections; how many relevant items were found. |
+| 🏆 **mAP@0.5** | 67.0% | Mean Average Precision at IoU threshold 0.5 (overall object detection quality). |
+| 🚀 **mAP@0.5:0.95** | 43.5% | Performance across varying IoU thresholds (stricter metric). |
 
-This confirms the model’s strong capability for real-world construction-site safety monitoring.
+### Metric Significance
+* **Precision:** Represents the quality of your detections. A high value indicates that when the model identifies an object, it is highly likely to be correct.
+* **Recall:** Represents the model's ability to identify all instances of objects within the scene. A high value indicates that few objects are missed.
+* **mAP (Mean Average Precision):** The primary benchmark for object detection. **mAP@0.5** assesses detection at a lenient threshold, while **mAP@0.5:0.95** provides a more rigorous evaluation of localization accuracy.
 
 ---
 
