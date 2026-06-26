@@ -20,6 +20,15 @@ The model accurately detects **helmets** and **vests** across diverse constructi
   <img src="sample_images/hard_hat_workers957_png.rf.963e0a153b3c8fb648135d3890dbdde6.jpg" alt="Sample 2" width="45%">
 </p>
 
+## 🎥 Detection Results: Video Inference
+We have validated our SPD-EMA architecture on real-world construction-site footage. Below are the inference results showing the model's robustness in identifying safety equipment.
+
+| Demo Scene | Preview (GIF) |
+| :--- | :--- |
+| **Site Demo 1** | <img src="sample_videos/1.gif" width="200"> |
+| **Site Demo 2** | <img src="sample_videos/2.gif" width="200"> |
+| **Site Demo 3** | <img src="sample_videos/3.gif" width="200"> |
+| **Site Demo 4** | <img src="sample_videos/4.gif" width="200"> |
 
 
 🔗 **[Google Drive – Full Results Folder](https://drive.google.com/drive/folders/1mN1S-gdZScozvR29-8DpZ5WK6loHT276?usp=drive_link)**  
