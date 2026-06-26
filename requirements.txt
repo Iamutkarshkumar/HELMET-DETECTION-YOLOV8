@@ -1,11 +1,18 @@
-ultralytics==8.2.90
-torch==2.1.0
-torchvision==0.16.0
-opencv-python==4.8.1.78
-numpy==1.26.2
-matplotlib==3.8.2
-timm==0.9.12
-thop==0.1.1.post2209072238
-einops==0.7.0
-grad-cam==1.5.0
-dill==0.3.7
+# Core Frameworks
+ultralytics>=8.2.0
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Image Processing & Utilities
+opencv-python>=4.8.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+
+# Advanced Models & Layers
+timm>=0.9.0
+einops>=0.7.0
+
+# Evaluation & Debugging
+thop>=0.1.1
+grad-cam>=1.5.0
+dill>=0.3.0
