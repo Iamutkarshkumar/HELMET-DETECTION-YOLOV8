@@ -2,16 +2,20 @@
 import torch
 import torch.nn as nn
 
-
 class EMAAttention(nn.Module):
     """
     Exponential Moving Average Channel Attention
     """
-    def __init__(self, channels, decay=0.999):
+    def __init__(self, channels, decay=0.95):
         super().__init__()
         self.decay = decay
-        self.mu = nn.Parameter(torch.zeros(1, channels, 1, 1), requires_grad=False)
-        self.gamma = nn.Parameter(torch.ones(1, channels, 1, 1))
+        self.mu = nn.Parameter(
+            torch.zeros(1, channels, 1, 1),
+            requires_grad=False
+        )
+        self.gamma = nn.Parameter(
+            torch.ones(1, channels, 1, 1)
+        )
 
     def forward(self, x):
         with torch.no_grad():
