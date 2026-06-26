@@ -21,10 +21,6 @@ The model accurately detects **helmets** and **vests** in diverse construction-s
 We further validated the architecture on real-world footage to test temporal consistency and robustness.
 
 <p align="center">
-  <img src="videos/1.gif" width="45%" alt="Site Demo 1">
-  <img src="videos/2.gif" width="45%" alt="Site Demo 2">
-  <br>
-  <img src="videos/3.gif" width="45%" alt="Site Demo 3">
   <img src="videos/4.gif" width="45%" alt="Site Demo 4">
 </p>
 
