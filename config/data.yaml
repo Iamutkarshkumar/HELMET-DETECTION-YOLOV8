@@ -1,14 +1,14 @@
 # Path to training images (each image must have a matching label in train/labels/)
-train: Users/Desktop/BASANT/helmet-detection(improved)/extracted_dataset/train/images
+train: Users/Desktop/BASANT/helmet-detection(final)/extracted_dataset/train/images
 
 # Path to validation images (used for model evaluation during training)
-val: Users/Desktop/BASANT/helmet-detection(improved)/extracted_dataset/valid/images
+val: Users/Desktop/BASANT/helmet-detection(final)/extracted_dataset/valid/images
 
 # Optional: Path to test images (used only for final performance testing)
-test: Users/Desktop/BASANT/helmet-detection(improved)/extracted_dataset/test/images
+test: Users/Desktop/BASANT/helmet-detection(final)/extracted_dataset/test/images
 
 # Number of object classes in the dataset
-nc: 2
+nc: 3
 
 # Class names (order must match the label IDs in YOLO format)
-names: ['hardhat', 'vest']
+names: ['head', 'helmet', 'person']
