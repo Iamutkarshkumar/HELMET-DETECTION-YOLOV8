@@ -45,7 +45,7 @@ Together, SPD-Conv + EMA significantly boost accuracy and feature consistency co
 
 The idea/concept has been explained in detail in the report associated in this github repository.
 📄 **Report:**  
-[SPD + EMA Model Report](spd_ema_report.pdf)
+[SPD + EMA Model Report](Helmet-Detection with an Improved YOLOv8 SPDConvolution and EMA Attention .pdf)
 
 
 ---
