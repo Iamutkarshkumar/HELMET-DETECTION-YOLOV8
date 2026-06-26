@@ -65,9 +65,9 @@ The idea/concept has been explained in detail in the report associated in this g
 
 | Metric | Value | Meaning |
 |-------|-------|---------|
-| 🎯 **Precision** | 93% | Correct positive detections |
-| 🔎 **Recall** | 92% | Ability to find all objects |
-| 🏆 **mAP@0.5** | 92.4% | Overall detection performance |
+| 🎯 **Precision** | 93.87% | Correct positive detections |
+| 🔎 **Recall** | 56.06% | Ability to find all objects |
+| 🏆 **mAP@0.5** | 61.42% | Overall detection performance |
 
 This confirms the model’s strong capability for real-world construction-site safety monitoring.
 
