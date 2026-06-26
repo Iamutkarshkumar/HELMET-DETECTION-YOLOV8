@@ -18,10 +18,14 @@ The model accurately detects **helmets** and **vests** in diverse construction-s
 </p>
 
 ### 🎥 Video-Based Inference
-We further validated the architecture on real-world footage to test temporal consistency and robustness.
+We have validated the architecture on real-world footage to test temporal consistency and robustness.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/BASANT1896/HELMET-DETECTION-YOLOV8/main/sample_videos/1.gif" width="45%" alt="Demo 1">
+  <img src="https://raw.githubusercontent.com/BASANT1896/HELMET-DETECTION-YOLOV8/main/sample_videos/2.gif" width="45%" alt="Demo 2">
+  <br>
+  <img src="https://raw.githubusercontent.com/BASANT1896/HELMET-DETECTION-YOLOV8/main/sample_videos/3.gif" width="45%" alt="Demo 3">
+  <img src="https://raw.githubusercontent.com/BASANT1896/HELMET-DETECTION-YOLOV8/main/sample_videos/4.gif" width="45%" alt="Demo 4">
 </p>
 
 
