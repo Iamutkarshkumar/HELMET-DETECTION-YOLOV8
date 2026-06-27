@@ -87,7 +87,7 @@ The idea/concept has been explained in detail in the report associated in this g
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/HELMET_DETECTION-YOLOV8.git
+git clone https://github.com/BASANT1896/HELMET_DETECTION-YOLOV8.git
 cd HELMET_DETECTION-YOLOV8
 
 # Create and activate virtual environment
