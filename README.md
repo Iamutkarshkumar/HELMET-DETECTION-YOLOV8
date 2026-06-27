@@ -1,5 +1,9 @@
 # HELMET-DETECTION-YOLOV8
 
+[![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-006400?style=flat&logo=ultralytics&logoColor=white)](https://github.com/ultralytics/ultralytics)
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org)
+[![NSUT](https://img.shields.io/badge/NSUT-Dwarka%2C%20New%20Delhi-E63946?style=flat)](https://www.nsut.ac.in)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is an enhanced helmet and vest detection system built on **YOLOv8**, upgraded with **SPD-Conv layers** and **EMA Attention** to improve feature extraction, spatial awareness, and detection robustness.  
 This model is designed for construction-site safety monitoring to ensure workers comply with PPE (Personal Protective Equipment) norms.
